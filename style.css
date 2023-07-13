@@ -1,0 +1,44 @@
+.navbar{
+
+    background-color: black;
+    color: white;
+
+}
+
+.navbar-brand{
+
+    background-color: white;
+
+}
+
+.row{
+    position: relative;
+    top:45px ;
+    left: 200px;
+}
+
+.btn{
+
+    height: 45px;
+
+}
+
+body{
+
+background-color: aquamarine;
+    
+}
+
+input{
+
+    border: 2px solid black;
+
+}
+
+footer{
+
+    position: relative;
+    top: 70px;
+    background-color: black;
+
+}

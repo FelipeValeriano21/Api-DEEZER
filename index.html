@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>API DEEZER</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  </head>
+  <body>
+    <header>
+        <nav class="navbar">
+            <div class="container-fluid">
+              <i class="navbar" href="#">CONECT SONG</i>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <div class="row">
+            <div class="col-8">
+                <div class="input-group input-group-lg">
+                    <input type="text" class="form-control" id="musica" placeholder="Digite uma música ou um artista" aria-label="Large" aria-describedby="inputGroup-sizing-sm">
+                  </div>
+            </div>
+            <div class="col-4">
+                <button type="button" class="btn btn-dark" onclick="chamamusica(document.getElementById('musica').value)">PESQUISAR
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                      </svg>
+                </button>
+            </div>
+          </div>
+
+        <div class="row">
+            <div class="col-8">
+                <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">ARTISTAS</th>
+                        <th scope="col">MUSICA</th>
+                        <th scope="col">RANKING</th>
+                        <th scope="col">PRÉVIA</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                  
+              
+                    </tbody>
+                  </table>
+                
+            </div>
+        </div>
+    </main>
+    <footer class="footer text-white text-center">
+      
+        <p class="mb-0">Feito por Felipe Valeriano</p>
+
+    </footer>
+    
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  </body>
+</html>
